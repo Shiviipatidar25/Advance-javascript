@@ -124,7 +124,9 @@
 //     preferredteas.push(tea);
     
 // }
-// console.log(preferredteas);
+// console.log(preferredteas);//--------------------------
+
+
                                                 
 //for in loop
 
@@ -135,6 +137,8 @@
 //     paris:2200000,
 
 // } ;
+
+//------------------------------------------------------
       
 // let largeCities = {};
 //  for (const city in worldCities) {
@@ -150,7 +154,7 @@
 
 
 
-
+//----------------------------------------------------------
 // foreach loop
 
 // let teacollection = ["earl grey" , " oolong tea" , "chai" , "green tea"];
@@ -169,7 +173,7 @@
 // });
 // console.log(availabletea);
 
-
+//-----------------------------------------------------------
 
 // let citiesvisit = ["berlin" , " tokyo" , "sydney" , "paris"];
 // let traveledcity = [];
@@ -194,17 +198,17 @@
 //     storenumbers.push((numbers[i]*2));
 // }
 // console.log(storenumbers);
+//----------------------------------------------------------
 
+// let myTeas = ["chai" , "green tea", "black tea" , " jaismin tea" , " herbal tea"];
 
-let myTeas = ["chai" , "green tea", "black tea" , " jaismin tea" , " herbal tea"];
+// let shortTeas = [];
 
-let shortTeas = [];
-
-for (const tea of myTeas) {
-    if ( tea.length > 10){ 
-        break;
-    }
-    shortTeas.push(tea);
+// for (const tea of myTeas) {
+//     if ( tea.length > 10){ 
+//         break;
+//     }
+//     shortTeas.push(tea);
     
-}
-console.log(shortTeas);
+// }
+// console.log(shortTeas);
